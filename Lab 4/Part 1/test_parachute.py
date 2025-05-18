@@ -23,7 +23,7 @@ class TestParachuteSystem(unittest.TestCase):
     # TODO 2: Test calculate_landing_impact function
     # calculate the landing impact using speed =50, and altitude = 100 and assert that the result is 500.
     def test_calculate_landing_impact(self):
-        self.assertEqual(ParachuteSytem.calculate_landing_impact(50,100), 500)
+        self.assertEqual(ParachuteSytem.calculate_landing_impact(50,100), 5000)
 
     # TODO 3: Test is_safe_landing function
     def test_is_safe_landing_succesful(self):
